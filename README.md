@@ -22,6 +22,20 @@ npm run build --report
 2. vant : 有赞ui库，对于商场系统来说，此ui库基本全有
 3. axios : 网络请求，可以出来请求前，和请求后对数据的二次处理
 4. vue-photo-preview : 实现缩略图的预览，更好的处理图片性质
+5. vue-router : 实现路由之间的跳转
+
+# 效果展示
+![image](https://github.com/awhlmycn/vue-vant-shop/blob/master/static/images/result/vant1.png)
+![image](https://github.com/awhlmycn/vue-vant-shop/blob/master/static/images/result/vant2.png)
+![image](https://github.com/awhlmycn/vue-vant-shop/blob/master/static/images/result/vant3.png)
+![image](https://github.com/awhlmycn/vue-vant-shop/blob/master/static/images/result/vant5.png)
+![image](https://github.com/awhlmycn/vue-vant-shop/blob/master/static/images/result/vant6.png)
+![image](https://github.com/awhlmycn/vue-vant-shop/blob/master/static/images/result/vant7.png)
+![image](https://github.com/awhlmycn/vue-vant-shop/blob/master/static/images/result/vant8.png)
+![image](https://github.com/awhlmycn/vue-vant-shop/blob/master/static/images/result/vant9.png)
+![image](https://github.com/awhlmycn/vue-vant-shop/blob/master/static/images/result/vant10.png)
+![image](https://github.com/awhlmycn/vue-vant-shop/blob/master/static/images/result/vant11.png)
+
 
 ### 待解决问题
 
