@@ -37,12 +37,12 @@
         },
         created(){
             this.INIT_BUYCART();
-            this.flag = this.$route.path == '/home'? false : true; 
+            this.flag = this.$route.meta.isNav ? false : true; 
             this.title = this.$route.meta.name;
         },
         watch:{
             '$route.path':function( newVal, oldVal ) {
-                if( newVal == '/home' ) {
+                if( this.$route.meta.isNav ) {
                     this.flag = false
                 }
                 else{

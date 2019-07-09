@@ -41,7 +41,6 @@ npm run build --report
 
     1.PhotoList中的tab内容区域切换会导致tab也切换
     2.v-lazy图片使用懒加载会报错
-    3.底部导航的返回键的时候，在chrome上会回退到google页面
 
 ## 尝试在手机上查看项目
 1. 保证手机和开发项目的电脑处于同一个WIFI环境中，

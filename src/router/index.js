@@ -13,25 +13,25 @@ const vueRouter = new Router({
         {
             path: '/home',
             name: 'home',
-            meta:{ name : '主页'},
+            meta:{ name : '主页', isNav : true },
             component: resolve => require(['@/components/tabbar/Home'], resolve)
         },
         {
             path: '/search',
             name: 'Search',
-            meta:{ name : '搜索'},
+            meta:{ name : '搜索', isNav : true },
             component: resolve => require(['@/components/tabbar/Search'], resolve),
         },
         {
             path: '/shopcart',
             name: 'Shopcart',
-            meta:{ name : '购物车'},
+            meta:{ name : '购物车', isNav : true },
             component: resolve => require(['@/components/tabbar/Shopcart'], resolve),
         },
         {
             path: '/member',
             name: 'Member',
-            meta:{ name : '会员'},
+            meta:{ name : '会员', isNav : true },
             component: resolve => require(['@/components/tabbar/Member'], resolve),
         },
         {
