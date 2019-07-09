@@ -56,7 +56,6 @@
                 'INIT_BUYCART'
             ]),
             onClickLeft(){
-                console.log( window.history );
                 // this.$router.go(-1);
                 window.history.back();
             }
