@@ -35,6 +35,7 @@
                 text="联系我们"
             />
         </van-grid>
+        <img src="../../../static/images/swipe_1.jpg" style="height: 500px;width: 100%;">
     </div>
 </template>
 

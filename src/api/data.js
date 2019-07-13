@@ -5,11 +5,11 @@ function randomsort(a, b) {
 }
 
 let imgArr = [
-    '../../static/images/swipe_1.jpg',
-    '../../static/images/swipe_2.jpg',
-    '../../static/images/swipe_3.jpg',
-    '../../static/images/swipe_4.jpg',
-    '../../static/images/swipe_5.jpg'
+    'http://pic5.nipic.com/20100106/4118657_131626000655_2.jpg',
+    'http://pic32.nipic.com/20130828/8786105_145601629000_2.jpg',
+    'http://img.sccnn.com/bimg/337/28119.jpg',
+    'http://pic30.nipic.com/20130622/13015479_102425791000_2.jpg',
+    'http://img.ph.126.net/YvOfZ79f0q1ongyYwh9fdg==/2592384535522075832.jpg'
 ];
 
 let getRangName = function(){
@@ -18,29 +18,33 @@ let getRangName = function(){
 let getRangImg = function(){
     return imgArr[ Math.floor( Math.random() * imgArr.length )];
 }
+
+let getIndex = function( arr ){
+    return arr[ Math.floor( Math.random() * arr.length )];
+}
 let lele = {
     // 轮播图
     lunbotu(){
         let data = [
             {
                 id : 1,
-                imgUrl : '../../static/images/swipe_1.jpg'
+                imgUrl : 'http://b-ssl.duitang.com/uploads/item/201412/25/20141225204152_aYEc3.jpeg'
             },
             {
                 id : 2,
-                imgUrl : '../../static/images/swipe_2.jpg'
+                imgUrl : 'http://hbimg.b0.upaiyun.com/8b6e86871a6afbee031a30f0fdb4bc5fbfde0ce22bd42-MvP93v_fw658'
             },
             {
                 id : 3,
-                imgUrl : '../../static/images/swipe_3.jpg'
+                imgUrl : 'http://img.mp.itc.cn/upload/20170220/3bde98f642f546be95b2d242994897aa_th.jpg'
             },
             {
                 id : 4,
-                imgUrl : '../../static/images/swipe_4.jpg'
+                imgUrl : 'http://pic161.nipic.com/file/20180411/9448607_145554945000_2.jpg'
             },
             {
                 id : 5,
-                imgUrl : '../../static/images/swipe_5.jpg'
+                imgUrl : 'http://img.juimg.com/tuku/yulantu/110715/9128-110G514440969.jpg'
             },
         ]
         return data;
@@ -62,7 +66,7 @@ let lele = {
                 add_time : '2019-07-04 18:10:10',
                 zhaiyao : '2019已经过半',
                 click : 1,
-                imgUrl : 'http://pic29.nipic.com/20130517/9252150_140653449378_2.jpg'
+                imgUrl : 'http://pic37.nipic.com/20140110/8821914_135241051000_2.jpg'
             },
             {
                 id : 3,
@@ -70,7 +74,7 @@ let lele = {
                 add_time : '2019-07-04 18:10:10',
                 zhaiyao : '2019已经过半',
                 click : 1,
-                imgUrl : 'http://pic32.nipic.com/20130823/13339320_183302468194_2.jpg'
+                imgUrl : 'http://img.sccnn.com/bimg/337/23662.jpg'
             },
             {
                 id : 4,
@@ -78,7 +82,7 @@ let lele = {
                 add_time : '2019-07-04 18:10:10',
                 zhaiyao : '2019已经过半',
                 click : 1,
-                imgUrl : 'http://pic.58pic.com/58pic/15/16/53/15s58PICjBM_1024.jpg'
+                imgUrl : 'http://pic144.nipic.com/file/20171030/20261224_123636695000_2.jpg'
             },
             {
                 id : 5,
@@ -86,7 +90,7 @@ let lele = {
                 add_time : '2019-07-04 18:10:10',
                 zhaiyao : '2019已经过半',
                 click : 1,
-                imgUrl : 'http://pic40.nipic.com/20140423/11693248_221326322000_2.jpg'
+                imgUrl : 'http://5b0988e595225.cdn.sohucs.com/images/20180415/b1920990b5654d53864afeb1c3ce932e.jpeg'
             },
             {
                 id : 6,
@@ -94,7 +98,7 @@ let lele = {
                 add_time : '2019-07-04 18:10:10',
                 zhaiyao : '2019已经过半',
                 click : 1,
-                imgUrl : 'http://pic41.nipic.com/20140429/12728082_192158998000_2.jpg'
+                imgUrl : 'http://pic166.nipic.com/file/20180527/11949215_140246196000_2.jpg'
             },
             {
                 id : 7,
@@ -102,7 +106,7 @@ let lele = {
                 add_time : '2019-07-04 18:10:10',
                 zhaiyao : '2019已经过半',
                 click : 1,
-                imgUrl : 'http://pic24.nipic.com/20120906/2786001_082828452000_2.jpg'
+                imgUrl : 'http://pic19.nipic.com/20120212/9337475_104548381000_2.jpg'
             },
             {
                 id : 8,
@@ -110,7 +114,7 @@ let lele = {
                 add_time : '2019-07-04 18:10:10',
                 zhaiyao : '2019已经过半',
                 click : 1,
-                imgUrl : 'http://www.syhjymc.com/uploads/allimg/190320/1-1Z320164052N0.jpg'
+                imgUrl : 'http://pic53.nipic.com/file/20141105/18505720_101842720000_2.jpg'
             },
             {
                 id : 9,
@@ -118,7 +122,7 @@ let lele = {
                 add_time : '2019-07-04 18:10:10',
                 zhaiyao : '2019已经过半',
                 click : 1,
-                imgUrl : 'http://pic31.nipic.com/20130804/7487939_090818211000_2.jpg'
+                imgUrl : 'http://pic170.nipic.com/file/20180625/11949215_162115287000_2.jpg'
             },
             {
                 id : 10,
@@ -126,7 +130,7 @@ let lele = {
                 add_time : '2019-07-04 18:10:10',
                 zhaiyao : '2019已经过半',
                 click : 1,
-                imgUrl : 'http://pic49.nipic.com/file/20140923/12106414_110747139072_2.jpg'
+                imgUrl : 'http://img02.tooopen.com/images/20151231/tooopen_sy_153310261897.jpg'
             },
             {
                 id : 11,
@@ -134,7 +138,7 @@ let lele = {
                 add_time : '2019-07-04 18:10:10',
                 zhaiyao : '2019已经过半',
                 click : 1,
-                imgUrl : 'http://pic1.win4000.com/wallpaper/9/5450ae2fdef8a.jpg'
+                imgUrl : 'http://hbimg.b0.upaiyun.com/28ea2e5cf17173f84ef74064e95627cc3ba75fe627e71-hKNgS4_fw658'
             }
         ];
         return data;
@@ -194,16 +198,16 @@ let lele = {
     getPhotoList(){
         let data = [];
         let imgs = [
-            '../../static/images/swipe_1.jpg',
-            '../../static/images/swipe_2.jpg',
-            '../../static/images/swipe_3.jpg',
-            '../../static/images/swipe_4.jpg',
-            '../../static/images/swipe_5.jpg',
-            '../../static/images/swipe_1.jpg',
-            '../../static/images/swipe_2.jpg',
-            '../../static/images/swipe_3.jpg',
-            '../../static/images/swipe_4.jpg',
-            '../../static/images/swipe_5.jpg'
+            'http://k.zol-img.com.cn/dcbbs/24715/a24714279_01000.jpg',
+            'http://pic163.nipic.com/file/20180426/6083536_224728727037_2.jpg',
+            'http://pic8.nipic.com/20100713/1954049_091647155567_2.jpg',
+            'http://attachments.gfan.com/forum/201411/20/145145w5u4504gu4th7g0z.jpg',
+            'http://pic21.nipic.com/20120514/9740741_213025596000_2.jpg',
+            'http://attachments.gfan.net.cn/forum/201501/13/143316yttiiyiuvufcoyjh.jpg',
+            'http://t1.mmonly.cc/uploads/tu/201611/86/92.jpg',
+            'http://pic41.nipic.com/20140519/18505720_094740582159_2.jpg',
+            'http://pic.58pic.com/58pic/11/83/65/00a58PICH85.jpg',
+            'http://pic.58pic.com/58pic/17/60/26/82R58PICkeD_1024.jpg'
         ];
         for( let i = 0; i < 10;i++){
             data.push({
@@ -238,10 +242,11 @@ let lele = {
      */
     getShopList( page ){
         let arr = [];
+        let nameArr = ['夕阳','歪瓜人','芒果','西红柿','圣骑','小阳','牡丹','梧桐','映月','落阳','残月'];
         for( let i = 0; i < 10; i++ ){
             let jsonData = {
                 imgUrl : 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1562481503761&di=5628584e3d02a3106a8a6728c1d47661&imgtype=0&src=http%3A%2F%2Fimg0.pconline.com.cn%2Fpconline%2F1905%2F17%2F12589136_11_thumb.jpg',
-                title : '华为神机',
+                title : getIndex( nameArr ),
                 now : 899,
                 old : 999,
                 num : 66,
@@ -260,7 +265,7 @@ let lele = {
         for( let i = 0; i < 3; i++){
             let jsonData = {
                 id : 1,
-                imgUrl : '../../static/images/swipe_3.jpg',
+                imgUrl : 'http://5b0988e595225.cdn.sohucs.com/images/20180531/84be3401d548436b840a3fc3b80e10ff.jpeg',
                 title : '小米',
                 selected : false,
                 now : 799,

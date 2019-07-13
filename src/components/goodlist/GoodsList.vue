@@ -99,6 +99,7 @@
     }
     .goods_item img{
         width: 100%;
+        min-height: 130px;
     }
     .goods_item .title{
         text-align: center;

@@ -71,16 +71,16 @@
         padding-top: 45px;
         padding-bottom: 54px;
     }
-    .van-nav-bar{
-        background: #26a2ff;
-    }
-    .header-cell{
-        color: #fff !important;
-    }
     body {
       font-size: 16px;
       background-color: #f8f8f8;
       -webkit-font-smoothing: antialiased;
+    }
+    .van-nav-bar{
+        background: #26a2ff !important;
+    }
+    .header-cell{
+        color: #fff !important;
     }
     /*修改tab的底部横条样式*/
     .van-tabs__line{

@@ -4,7 +4,8 @@ import Router from 'vue-router'
 Vue.use(Router)
 
 const vueRouter = new Router({
-    // modal : 'history',
+    mode : 'history',
+    base : '/vant/',
     routes: [
         {
             path: '/',
